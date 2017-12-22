@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<title>NACHA File Checker</title>
+<script src="js/file.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="checkFileAPI()">
+<div align="center">
+	Select your NACHA file:<br>
+	<input type="file" name="inputFile" id="inputFile" onchange="readText(this)">
+</div>
+<br>
+<div align="center">
+	<button type="button" name="commit">Submit</button>
+</div>
+<div id="fileOutput" align="center"></div>
+
+	
+</body>
+
+</html>
